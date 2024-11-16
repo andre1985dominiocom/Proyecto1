@@ -38,12 +38,12 @@
       
                <div>
                   <label for="Positivos">Positivos</label>
-                  <input type="number" required>
+                  <input type="number" min="0" required>
                </div>
       
                <div>
                   <label for="Maximo-Minimo">Maximo-Minimo</label>>
-                  <input type="number" max="20" min="0" required>
+                  <input type="number" step="0.5" max="20" min="10" required>
                </div>
       
                <div>
@@ -52,37 +52,33 @@
                </div>
       
                <div>
-                  <label for="Hora">Hora</label>
+                  <label for="Hora">Hora de Registro</label>
                   <input type="time" required>
                </div>
       
                <div>
                   <label for="ciudad">Ciudad</label>
                   <select name="ciudad" id="ciudad">
-                    <option value=""> seleccione></option>
+                    <option value="Seleccione">Seleccione></option>
                     <option value="1">Bucaramamanga</option>
                     <option value="2">Floridablanca</option>
                     <option value="3">Giron</option>
-                    <option value="4">Piedecuesta</option>
+                    <option value="4">Piedecuesta</option></select>
                 </div>
       
                 <div>
-                  <label for="Género">Género</label>
-                  <select name="Género">Género</select>
-                  <option value="select">Seleccione</option>
-                  <option value="Masculino">Masculino</option>
-                  <option value="Femenino">Femenino</option>
-                  <option value="Otro">Otro</option>
+                  <label for="Materia">Materia</label>
+                  <select name="Materia" id="Materia">
+                    <option value="Seleccione">Seleccione></option>
+                    <option value="1">HTML</option>
+                    <option value="2">CSS</option>
+                    <option value="3">JAVA</option>
+                    <option value="4">PYTHON</option></select>
                 </div>
       
                 <div>
-                  <label for="Materiales"></label>
-                <input type="Materials" required>
-                </div>
-      
-                <div>
-                  <label for="Archivos"></label>
-                  <input type="Archivos" required>
+                  <label for="Archivos">Archivos</label>
+                  <input type="file" accept=".jpg" accept=".png">
                 </div>
       
               <div>
@@ -91,12 +87,8 @@
               </div>
                 
               <div>
-                <label for="seleccion">Selección</label>
-                <input type="file" required>
-              </div>
-              <div>
-                <label for="SergioAndrésÁlvarezLache"></label>
-                <input type="SergioAndrésÁlvarezLache" required>
+                <label for="Aprendiz">Sergio Andrés Álvarez Lache</label>
+                <input type="text">
               </div>
              </form>
           </section>
