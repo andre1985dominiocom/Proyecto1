@@ -9,43 +9,54 @@
     <form>
         <ul>
           <section>
-            <form action="index.html" method="get">     
+            <form action="index.html" method="get">
+              <h1>Formulario de Registro</h1>
+            <hr>
               <div>
                  <label for="Nombre">Nombre</label>
                  <input type="text" required>
               </div>
+            <hr>
               <div>
                  <label for="Apellido">Apellido</label>
-                 <input for="text" required>
-                </div>   
+                 <input for="text" style="text-transform: lowercase" required>
+              </div>
+            <hr>
               <div>
                   <label for="Color">Color</label>
                   <Input type="color" required>
-                </div>     
+                </div>
+            <hr>
               <div>
                   <label for="Edad">Edad</label>
                   <input type="Number" id="Edad" step="1" max="100" min="0" required/>
               </div>
+            <hr>
                <div>
                   <label for=Números>Números</label>
                   <input type="text" id="Números" step="1" max="1000"  min="0" required/> 
-              </div>   
+              </div>
+            <hr>
               <div>
                   <label for="Positivos">Positivos</label>
                   <input type="number" min="0" required>
               </div>
+            <hr>
               <div>
                   <label for="Maximo-Minimo">Maximo-Minimo</label>
                   <input type="number" step="0.5" max="20" value="15" min="10" required/>
               </div>
+            <hr>
               <div>
                   <label for="Fecha de Nacimiento">Fecha de Nacimiento</label>
                   <input type="date" required>
-              </div>   
+              </div>
+            <hr>
               <div>
                   <label for="Hora">Hora de Registro</label>
                   <input type="time" required>
               </div>
+            <hr>
               <div>
                   <label for="ciudad">Ciudad</label>
                   <select name="ciudad" id="ciudad">
@@ -67,6 +78,7 @@
                     <option value="14">Armenia</option>
                     <option value="15">Barrancabermeja</option></select>
               </div>
+            <hr>
               <div>
                    <label for="Género">Género</label>
                    <select name="Género" id="Género">
@@ -75,6 +87,7 @@
                     <option value="2">Femenino</option>
                     <option value="3">Otro</option></select>
               </div>
+            <hr>
               <div>
                   <label for="Materia">Materia</label>
                   <select name="Materia" id="Materia">
@@ -85,15 +98,18 @@
                     <option value="4">PYTHON</option>
                     <option value="5">JS</option>
                     <option value="6">PH</option></select>
-              </div>      
+              </div>
+            <hr>
               <div>
                   <label for="Archivos">Archivos</label>
                   <input type="file" accept=".jpg" accept=".png">
               </div>
+            <hr>
               <div>
                 <label for="Contraseña">Contraseña</label>
                 <input type="Password" placeholder="Protección">
-              </div>              
+              </div>
+            <hr>
               <div>
                 <label for="Aprendiz">Sergio Andrés Álvarez Lache</label>
               </div>
@@ -102,6 +118,7 @@
           <section>
           <form action="index.html">
           </section>
+        <hr>
            <form>
                <Button type="submit">Enviar</Button>
            </form>
